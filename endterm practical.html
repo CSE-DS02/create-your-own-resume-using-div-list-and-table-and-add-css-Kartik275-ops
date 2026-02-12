@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Grid</title>
+    <style>
+          body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background: #f5f5f5;
+}
+
+.page{
+       background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.page-tittle{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.product{
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 1px 1px 10px #24e1e1;
+    transition:transform 0.2s ease;
+
+}
+
+.product:hover{
+    transform:translateY(-5px);
+}
+
+.product img{
+    width: 55%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit:cover;
+    margin-bottom: 10px;
+}
+
+.product-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-desc{
+    font-size: 14px;
+    color:#555;
+    margin: 5px 0;
+}
+
+.product-price{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+</style>
+
+</head>
+<body>
+ <div class="page">
+<h2 class="page-title">Product Grid</h2>
+</div>
+
+<div class="container">
+
+    <div class="product">
+          <img src="https://m.media-amazon.com/images/I/71pKJ+Mjd8L._AC_UY327_FMwebp_QL65_.jpg" alt="Laptop">
+          <div class="product-title">Laptop</div>
+          <div class="product-desc"></div>
+           <div class="product-price"></div>
+    </div>
+
+    <div class="product">
+          <img src="https://m.media-amazon.com/images/I/718Q2c2IoLL._AC_UL480_FMwebp_QL65_.jpg" alt="Watch">
+          <div class="product-title"></div>
+          <div class="product-desc"></div>
+           <div class="product-price"></div>
+    </div>
+
+    <div class="product">
+          <img src="https://m.media-amazon.com/images/I/618vU2qKXQL._AC_UY327_FMwebp_QL65_.jpg" alt="smartphone">
+          <div class="product-title"></div>
+          <div class="product-desc"></div>
+           <div class="product-price"></div>
+    </div>
+
+     <div class="product">
+          <img src="https://m.media-amazon.com/images/I/61l6RgFQeaL._AC_UY327_FMwebp_QL65_.jpg" alt="Headphone">
+          <div class="product-title">Headphone</div>
+          <div class="product-desc"></div>
+           <div class="product-price"></div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy  2026 product grid| All right are reversed </p>
+</footer>
+</body>
+</html>
+          
+
+ 
